@@ -1,0 +1,42 @@
+.not-found-form {
+  width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+
+.login-form-layout {
+  max-height: 100vh;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+
+.login-page {
+  /*background: #d2d6de;*/
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./login.JPG") no-repeat top center scroll;
+  background-size: cover;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 800ms ease-in;
+}
